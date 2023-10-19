@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Shuttle Service</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    
+    <!-- <link rel="stylesheet" href="Style.css"/>
+    <link rel="stylesheet" href="font/font.css"/> -->
+
+
+
+     <link rel ="stylesheet"href="Uss.css"/>
+
+     <link rel="icon" href="image/favicon-32x32.png"type="image/png"/>
+     <link rel="shortcut icon" href="image/favicon.ico"/>
+</head>
+<body>
+    
+    
+
+ 
+<div id = "wrapper" >   
+    <header>
+        
+     <!-- <div id ="header"> -->
+
+          <div class="logo"> 
+                          
+             <img src="image/Uss1.jpg" />
+         </div>
+
+
+         <div class="marquee-container">
+             <div class="marquee">
+                <h1> ......Welcome To  University Shuttle Services (USS)......Booked a Seat (with USS),and
+                     Enjoy Affoardable Ride At Fixed Price To Your University..... </h1>
+             </div>
+        </div>
+        
+     
+        <div class="login-dropdown">
+            <div class="login-button" onclick="toggleLoginForm()">LOG-IN</div>
+            <div class="login-dropdown-content" id="loginForm">
+                <br>
+                <input type="text" placeholder="ID number">
+                <div class="password-container"><br>
+                    <input type="password" placeholder="Password" id="passwordInput">
+                    <input type="checkbox" id="showPassword" onclick="togglePasswordVisibility()">
+                    <label for="showPassword">Show Password</label>
+                </div>
+              <!--   <input type="password" placeholder="Password">-->
+                <button type="button" class="reset-button" onclick="resetForm()">Reset</button>
+                <button onclick="login()">Submit</button><br>
+              
+            </div>
+        </div>
+        
+    
+
+    </header>
+
+ 
+       <nav>
+            <div id ="nav">
+                
+                <ul>
+                  
+                    <li> <a href="#">Select University & Road &raquo;</a>
+                        <ul>
+                            
+                            <div class="scrollbar1" id="style-default1">
+                                <div class="force-overflow1"> 
+                               
+                            <li><a href="#">North South University &raquo;</a> 
+                               <ul>
+                               
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+
+                                           <!-- 
+                                            <li><a href="https://www.bracu.ac.bd/">Brac University &raquo;</a>
+                                            <li><a href="https://www.aiub.edu/">AIUB &raquo;</a></li> 
+                                            <li><a href="https://www.aust.edu/">AUST &raquo;</a> 
+                                            <li><a href="http://www.iub.edu.bd/">IUB &raquo;</a></li>
+                                            <li><a href="https://www.ewubd.edu/">East West University &raquo;</a> </li>
+                                            <li><a href="https://www.uiu.ac.bd/">United International University &raquo;</a>
+                                            <li><a href="https://daffodilvarsity.edu.bd/">Daffodil International University &raquo;</a></li>
+                                            <li><a href="https://www.uap-bd.edu/"> University of Asia Pasific &raquo;</a> </li> 
+                                            <li><a href="https://iubat.edu/">IUBAT University</a></li>
+                                            <li><a href="https://green.edu.bd/">Green University </a></li>
+                                            <li><a href="https://seu.edu.bd/">Southeast University </a></li>
+                                            <li><a href="https://uttarauniversity.edu.bd/">Uttara University </a></li>
+                                            <li><a href="https://www.easternuni.edu.bd/">Eastern University </a></li>
+                                            <li><a href="https://www.bubt.edu.bd/">BUBT</a></li>
+                                            <li><a href="https://www.primeasia.edu.bd/">Prime Asia University </a></li>
+                                            <li><a href="https://www.adust.edu.bd/#/">Atish Dipankar University </a></li>
+                                            <li><a href="https://diu.ac/">Dhaka International University</a></li>
+                                            <li><a href="https://nub.ac.bd/">Northern University </a></li>
+                                            --> 
+                                            
+                                        </div>
+                                    </div>
+                                   
+                                </ul>
+                               
+                            
+                            </li>
+                            <li><a href="#">Brac University &raquo;</a>
+                                <ul>
+                                        <div class="scrollbar" id="style-default">
+                                            <div class="force-overflow"> 
+                                                <li><a href="#">Tongi</a></li>
+                                                <li><a href="#">Uttara</a></li>
+                                                <li><a href="#">Dhanmondi</a></li>
+                                                <li><a href="#">Mohammadpur</a></li>
+                                                <li><a href="#">Mirpur</a></li>                                     
+                                                <li><a href="#">Narayangonj</a></li>
+                                                <li><a href="#">Savar</a></li>
+                                          </div>
+                                     </div>
+
+                               </ul>
+                            </li>
+                            
+                            <li><a href="#">AIUB &raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                   </div>
+
+                               </ul>
+                            </li>
+
+                            <li><a href="#">UIU&raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                 </div>
+
+                           </ul>
+                            </li>
+                            <li><a href="#">EWU &raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                 </div>
+
+                           </ul></li>
+                            <li><a href="#">IUB &raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                 </div>
+
+                           </ul></li> 
+                            <li><a href="#">IUBAT &raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                 </div>
+
+                           </ul></li>
+                            <li><a href="#">UIU&raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                 </div>
+
+                           </ul></li>
+                            <li><a href="#">DIU &raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                 </div>
+
+                           </ul></li>
+                            <li><a href="#">Southeast University &raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                 </div>
+
+                           </ul></li>
+                            <li><a href="#">UAP &raquo;</a>
+                                <ul>
+                                    <div class="scrollbar" id="style-default">
+                                        <div class="force-overflow"> 
+                                            <li><a href="#">Tongi</a></li>
+                                            <li><a href="#">Uttara</a></li>
+                                            <li><a href="#">Dhanmondi</a></li>
+                                            <li><a href="#">Mohammadpur</a></li>
+                                            <li><a href="#">Mirpur</a></li>                                     
+                                            <li><a href="#">Narayangonj</a></li>
+                                            <li><a href="#">Savar</a></li>
+                                      </div>
+                                 </div>
+
+                           </ul></li>
+
+                        </div>
+                    </div>
+                        </ul>
+               
+
+                    </li>
+
+
+                    <li><a href="#">Services &raquo;</a>
+                        <ul>
+                            <li><a href="#">North South University</a></li>
+                            <li><a href="#">IUBAT University</a></li>
+                            <li><a href="#">Daffodil International University &raquo;</a>
+                         </ul>
+
+                    </li>
+                 
+                   
+                    <li><a href="#">About Us  &raquo;</a>
+                    </li>
+                   
+                    <li><a href="#">Live Location</a>
+                    </li>
+                    <li><a href="#">Transport List</a>
+                    </li>
+               <!--   <li><a href="private University Inside.html">Subject Ways Budget And Priority University List &raquo;</a>-->
+                          
+                       
+
+                </ul>
+               </div>
+   
+        </nav> 
+    
+    <section>
+                <div id ="slider-wrapper">
+                   <!--<img src="image/nemo.jpg"/>-->
+                  
+
+                                                                                                                   <div class="slider-wrapper theme-bar">
+                       <div id="slider" class="nivoSlider">
+                           <img src="image/img/images (25).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (17).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (14).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (11).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (6).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (3).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (4).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (5).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (6).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (7).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (8).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (9).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (10).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (11).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (12).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (13).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (14).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (15).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (16).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                          
+                           <img src="image/img/images (18).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                           <img src="image/img/images (19).jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section"/>
+                         
+                           <!--<img src="image/Lib5.jpg" data-thumb="image/Lib5.jpg" alt="Silent Study Zone of General Section"title="Silent Study Zone of General Section" />
+                           <a href="http://dev7studios.com"><img src="image/Lib6.jpg" data-thumb="image/Brac.jpg" alt="Newspaper Zone" title="Newspaper Zone" /></a>
+                           <img src="image/Lib7.jpg" data-thumb="image/Lib7.jpg" alt="Group Study Zone" data-transition="slideInLeft" title="Group Study Zone"/>
+                           <img src="image/Lib8.jpg" data-thumb="image/Lib8.jpg" alt="Silent Study Zone" title="Silent Study Zone" />
+                           <img src="image/Lib9.jpg" data-thumb="image/Lib9.jpg" alt="Library Café and Mind Mapping Place" data-transition="slideInLeft" title="Library Café and Mind Mapping Place"/>
+                           <img src="image/Lib10.jpg" data-thumb="image/Lib10.jpg" alt="Northsouth University" title="His Excellency, Dr. Banshidhar Mishra, Honorable Ambassador, Embassy of Nepal in Bangladesh visits DIU Library." />
+                           <img src="image/Lib11.jpg" data-thumb="image/Lib11.jpg" alt="Inauguration of Bangabandhu and Liberation War Study Center" data-transition="slideInLeft" title="Inauguration of Bangabandhu and Liberation War Study Center"/>
+                           <img src="image/Lib12.jpg" data-thumb="image/Lib12.jpg" alt="Inauguration of Kabi Nazrul Eduplex" title="Inauguration of Kabi Nazrul Eduplex" />
+                           <img src="image/Lib13.jpg" data-thumb="image/Lib13.jpg" alt="Silent Study Zone" data-transition="slideInLeft" title="Silent Study Zone"/>
+                           -->
+                        </div>
+        
+                           <div id="htmlcaption" class="nivo-html-caption">
+                           <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+                       </div>
+                   </div>
+                </div>
+                  
+     </section>
+            
+        <div id="content-wrappper">
+            <div id ="content">
+                <article>
+                    <h2><u> No cancellation </u></h2>
+                    <ul>
+                        <img src="image/download (11).jpeg" class="center">
+                        <p>Pre-booking our trips guarantee that drivers 
+                            are 100% on-board
+                             with trips and have no reason to cancel.</p>
+                    </ul>
+                        
+                       
+                    
+                </article>
+                
+                
+            </div>
+            <div id ="content">
+                <article>
+                    <h2><u> Safe Trips</u><br> </h2>
+                     <img src="image/download (2).png" class="center">
+                        
+                      <p> A safe ride starts with our drivers. Every Shuttle trip is captained by
+                         trained drivers vetted carefully after proper background checks.
+                    </p> 
+                        
+                       
+                    
+                </article>
+                
+                
+            </div>
+           
+            <div id ="content">
+                <article>
+                    
+                    <h2><u><b>City-Wide Coverage </b></u></h2><br>
+                    <img src="image/map.jpg" class="center">
+                        
+                    <p>Hello Dhaka! We have you covered. Our routes span across 70+ routes throughout the
+                         city and we’re constantly adding more.</p>
+                       
+                    
+                </article>
+                
+                
+            </div>
+           
+            
+            <div id ="sidebar">
+                <aside>
+                 
+                    <h2><u><b>City-Wide Coverage </b></u></h2><br>
+                    <img src="image/map.jpg" class="center">
+                        
+                    <p>Hello Dhaka! We have you covered. Our routes span across 70+ routes throughout the
+                         city and we’re constantly adding more.</p>
+                </aside>
+               
+            </div>
+            <div id ="sidebar">
+                <aside>
+                    <h2><u> No cancellation </u></h2>
+                    <ul>
+                        <img src="image/download (11).jpeg" class="center">
+                        <p>Pre-booking our trips guarantee that drivers 
+                            are 100% on-board
+                             with trips and have no reason to cancel.</p>
+                    </ul>
+                </aside>
+             
+               
+            </div>
+            <div id ="sidebar">
+                <aside> <!-- 
+                    <h2><u>For Any Query Contact Us </u></h2>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Dial:01760954003</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Link-in</a></li>
+                    </ul> 
+                    </ul>-->
+                    <h2><u> Service Hours</u><br> </h2> <br>
+                    <h1> <u> Saturday &raquo; &raquo; &raquo; Thrusday</u></h1>
+                     <p> 
+                    
+                      
+                     <b> 6.00 AM &raquo; to &raquo; 11.00 PM. </b> <br>
+
+                    </p>
+                      
+                     <h1><u> Service Shedule </u></h1>
+                      
+                    <p> <u> Sat to Thurs &raquo;</u>
+                      
+                      8.00 AM to 4.00 PM<br>
+                      
+                      Friday &raquo;<br>
+                      
+                      CLOSED
+                  </p> 
+                </aside>
+             
+               
+            </div>
+        </div>
+               
+        <footer>
+            <div id ="footer">
+                <p>&copy;All right reserved by <b>Hossain Ahammed</b> </p>
+            </div>
+        </footer>
+     </div>
+                
+            
+
+                <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+                <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+                <script type="text/javascript">
+                $(window).load(function() {
+                    $('#slider').nivoSlider();
+                });
+                </script> 
+             
+                <!-- Script for log in button-->
+
+                <script>
+                    function toggleLoginForm() {
+                        var loginForm = document.getElementById("loginForm");
+                        loginForm.style.display = loginForm.style.display === "block" ? "none" : "block";
+                        // Clear the input fields on each access
+                        document.querySelector('.login-dropdown-content input[type="text"]').value = '';
+                        document.querySelector('.login-dropdown-content input[type="password"]').value = '';
+                    }
+            
+                    function login() {
+                        //  login validation logic here
+                        var idNumber = document.querySelector('.login-dropdown-content input[type="text"]').value;
+                        var password = document.querySelector('.login-dropdown-content input[type="password"]').value;
+            
+                        // For demonstration purposes, we assume the login is successful if both fields are non-empty
+                        if (idNumber.trim() == '1234' && password.trim() == 'H1234') {
+                            alert('Login successful!');
+
+                            // Redirect to the new page after successful login
+                           window.location.href = 'Uss2.html';
+                        } else {
+                            alert('Invalid login information. Please try again.');
+                        }
+                    }
+
+                    function togglePasswordVisibility() {
+                            var passwordInput = document.getElementById("passwordInput");
+                            var showPasswordCheckbox = document.getElementById("showPassword");
+
+                            if (showPasswordCheckbox.checked) {
+                                passwordInput.type = "text";
+                            } else {
+                                passwordInput.type = "password";
+                            }
+                          }
+                    function resetForm() {
+                            // Clear the input fields
+                            document.querySelector('.login-dropdown-content input[type="text"]').value = '';
+                            document.querySelector('.login-dropdown-content input[type="password"]').value = '';
+                       }
+
+                </script>
+            
+
+</body>
+</html>
