@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Sign-In</title>
+    
+     <link rel ="stylesheet"href="CSS/Sign-in.css"/>
+</head>
+<body>
+    <section> 
+    <div class="form-box">
+        <div class="form-value">
+     <form action ="" autocomplete="on">
+       
+           <br>
+           <h2>Sign-Up</h2><br>
+      
+           <div class="inputbox">
+             <label for ="name">Name</label> 
+             <input type ="text"name="name" id="name" placeholder="Enter username "><br> 
+            </div>
+             <br>
+             <div class="inputbox">
+             <label for ="email">Email</label>
+             <input type="email" name="email"id="email" placeholder="Enter valid email adress">
+            </div>
+             <br> 
+             <div class="inputbox">
+             <label for ="gender">Gender</label>
+             <input type ="radio"name="gender" id="genderM" value="Male">
+             <label for ="genderM">Male</label>
+             <input type ="radio"name="gender" id="genderF" value="Female">
+             <label for ="genderF">Female</label>
+             <br> <br>
+             <label for="p1"> How are you currently commuting to your University?<br></label>
+           <br>
+             <input type ="checkbox"name="p1" id ="plCNG"value="CNG">
+             <label for="plc"> CNG</label>
+             <input type ="checkbox"name="p1" id ="plUber"value="Uber">
+             <label for="plc"> Uber</label>
+             <input type ="checkbox"name="p1" id ="plBus"value="Bus">
+             <label for="plc"> Bus</label>
+             <input type ="checkbox"name="p1" id ="plUniversity Bus"value="University Bus">
+             <label for="plc"> University Bus</label>
+             <input type ="checkbox"name="p1" id ="plRide Share"value="Ride Share">
+             <label for="plc"> Ride Share</label>
+           </div>
+             <br> 
+             <div class="inputbox">
+             <label for="district"> District</label>
+             <select name="district"id="district">
+                  <option value="Dhaka" selected> Dhaka </option>
+                  <option value="Sylhet">Sylhet </option>
+                  <option value="Cumilla"> Cumilla </option>
+                  <option value="Barisal"> Barisal</option>
+                  <option value="Boguura"> Bogura </option>
+                  <option value="Khulna"> Khulna </option>
+                  <option value="Rajshahi"> Rajshahi </option>
+                  <option value="Kishorgonj"> Kishorgonj</option>
+
+
+             </select>
+           </div>
+             <br>
+             <div class="inputbox">
+             <label for="cc "> University Code</label>
+             <input type="text" name = "cc" id="cc" pattern="[A-Z]{5}" placeholder="DIU">
+             <br> <br>
+             </div>
+             <div class="inputbox">
+            
+    
+             <label for="file">Upload your University ID card Pdf:</label>
+             <input type="file" name="file" id="file">
+             <input type="submit" value="Upload">
+             <br>
+            <!--  <input type ="submit"value ="Register"><br>-->
+             <a href="Uss.html" target="Uss.html" class="register-link">
+               Register
+          </a>
+           </div>
+  </form>
+    </div>
+    </div>
+</section>
+</body>
+</html>
